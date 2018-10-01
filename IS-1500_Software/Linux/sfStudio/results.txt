@@ -1,0 +1,15 @@
+Serial: 
+Part Number: 
+Revision Number: 
+Operator ID: 
+Assembly Number  Pending
+Light Test  Pending
+Dark Test  Pending
+Image Sensor Built-in pattern test  Pending
+Illuminator Day Test  Pending
+Illuminator Night Test  Pending
+Illuminator Off Test  Pending
+Imu Accuracy Test  Pending
+CPU Temperature  Pending
+Serial Interface Test  Pending
+Debug Port Test  Pending

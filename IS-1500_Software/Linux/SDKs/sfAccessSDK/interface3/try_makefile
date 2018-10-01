@@ -1,0 +1,6 @@
+main: interface.so main.o
+		g++ -o main  main.o -L. -I../include
+
+
+clean:
+	rm *.o *.so

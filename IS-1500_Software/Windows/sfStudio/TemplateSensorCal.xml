@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+   <header>
+      <version>2.1.1</version>
+      <calibration_date>13-Dec-2016 18:08:40</calibration_date>
+      <camera_sn>1612007</camera_sn>
+      <navchip_sn>161102EC</navchip_sn>
+   </header>
+   <calibration>
+      <model>1</model>
+      <width>1280</width>
+      <height>960</height>
+      <timeshiftCamToIMU>0.0</timeshiftCamToIMU>
+      <fc>000.0 000.0</fc>
+      <cc>000.0 000.0</cc>
+      <kc>0.0 0.0 0.0 0.0</kc>
+	  <alpha_c>0</alpha_c>
+	  <theta_max_data>0.0</theta_max_data>
+      <theta_max>0.0</theta_max>
+      <Ric>0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0</Ric>
+      <Rsi>0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0</Rsi>
+      <tic>0.0 0.0 0.0</tic>
+      <descriptor_trans_ib>0 0 0</descriptor_trans_ib>
+      <descriptor_Rib>1 0 0 0 1 0 0 0 1</descriptor_Rib>
+   </calibration>
+   <quality>
+      <fc_error>0.0 0.0</fc_error>
+      <cc_error>0.0 0.0</cc_error>
+      <kc_error>0.0 0.0 0.0 0.0</kc_error>
+      <alpha_c_error>0</alpha_c_error>
+      <pixel_err_std>0.0 0.0</pixel_err_std>
+      <cam_trans_range>0.0 0.0 0.0</cam_trans_range>
+      <gs_mean>0.0 0.0</gs_mean>
+      <gs_std>0.0 0.0</gs_std>
+      <planefit_std>0.0</planefit_std>
+      <rotation_coverage>0.0</rotation_coverage>
+      <n_ima>0</n_ima>
+      <n_act>0</n_act>
+   </quality>
+</root>

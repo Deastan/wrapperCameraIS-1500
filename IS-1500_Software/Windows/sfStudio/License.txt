@@ -1,0 +1,2 @@
+Qt5.7 is utilized under the LGPLv3 license (LICENSE.LGPLv3).
+sfStudio is based in part on the work of the Qwt project (http://qwt.sf.net).

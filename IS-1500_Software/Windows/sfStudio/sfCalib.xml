@@ -1,0 +1,10 @@
+<Trackers>
+	<Tracker Name="HObIT " Filename="config-hobit.xml" IS1500="0" DevicePSEs="devicePSEs_HObIT_D.cfg"/>
+	<Tracker Name="MiniHObIT " Filename="config-hobit-mini.xml" IS1500="0" DevicePSEs="devicePSEs_HObIT_Mini_HObIT.cfg"/>
+	<Tracker Name="InertiaCam" Filename="config-icam.xml" IS1500="1" DevicePSEs=""/>
+	<Tracker Name="Lightcraft " Filename="config-hobit-lightcraft.xml" IS1500="0" DevicePSEs="devicePSEs_HObIT_D.cfg"/>
+</Trackers>
+<CalStands>
+	<CalStand Name="Block A" Filename="file:///C:/InterSense/IS-1500SoftwarePackage/Windows/sfStudio/plugins/sfCalib/PtTrack_Map_Granite_IR-A-Billerica.txt"/>
+</CalStands>
+
