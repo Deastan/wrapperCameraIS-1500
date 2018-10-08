@@ -1,0 +1,17 @@
+
+# Launch camera_is1500_node
+cd catkin_ws_kyb/
+caktin_make
+roslaunch camera_is1500 cameraTry.launch
+
+# RosBag
+rosbag record -all
+rosbag record /base_link_odom_camera_is1500
+
+# Launch sfHub
+cd Documents/wrapperCameraIS-1500/IS-1500_Software/Linux/sfHub/
+./sfHub
+# Launch sfStudio
+cd Documents/wrapperCameraIS-1500/IS-1500_Software/Linux/sfStudio/
+export LD_LIBRARY_PATH=/home/jonathan/Documents/wrapperCameraIS-1500/IS-1500_Software/Linux/sfStudio/lib/
+./sfStudio
