@@ -21,7 +21,9 @@ bool overInit()//Oversfa &oversfa)
     // Becareful : Don't Forget to add the file in the path !!!!
     // sfa.setIniPath("../param/sfaccess.ini");
     // sfa.setIniPath("/home/jonathan/Documents/Kyburz/IS-1500_2017d/Camera/Linux/SDKs/sfAccessSDK/x86_64/sfaccess.ini");
-    sfa.setIniPath("/home/jonathan/Documents/IS-1500_Software/Linux/SDKs/sfAccessSDK/x86_64/sfaccess.ini");
+    // sfa.setIniPath("/home/jonathan/Documents/IS-1500_Software/Linux/SDKs/sfAccessSDK/x86_64/sfaccess.ini");
+    sfa.setIniPath("/home/jonathan/Documents/wrapperCameraIS-1500/IS-1500_Software/Linux/SDKs/sfAccessSDK/x86_64/sfaccess.ini");
+
 
     // sfa.setIniPath("/home/jonathan/catkin_ws_kyb/src/camera_is1500/param/sfaccess.ini");
     if(sfa.open());
