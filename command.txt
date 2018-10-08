@@ -16,6 +16,12 @@ cd Documents/wrapperCameraIS-1500/IS-1500_Software/Linux/sfStudio/
 export LD_LIBRARY_PATH=/home/jonathan/Documents/wrapperCameraIS-1500/IS-1500_Software/Linux/sfStudio/lib/
 ./sfStudio
 
+# Rosbag_to_csv
+download package
+sudo apt-get install python-qt4
+roscore
+rosrun rosbag_to_csv rosbag_to_csv.py
+
 # give access to "sfacces.ini"
 chmod 777 sfacces.ini
 
