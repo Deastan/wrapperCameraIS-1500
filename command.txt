@@ -15,3 +15,11 @@ cd Documents/wrapperCameraIS-1500/IS-1500_Software/Linux/sfHub/
 cd Documents/wrapperCameraIS-1500/IS-1500_Software/Linux/sfStudio/
 export LD_LIBRARY_PATH=/home/jonathan/Documents/wrapperCameraIS-1500/IS-1500_Software/Linux/sfStudio/lib/
 ./sfStudio
+
+# give access to "sfacces.ini"
+chmod 777 sfacces.ini
+
+# create/update new libinterface.so
+cd .../folder/interface2/
+make arch=64
+=> take labrary and move it in camera_is1500/lib/
