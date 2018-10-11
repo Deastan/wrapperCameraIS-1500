@@ -11,6 +11,7 @@ rosbag record /base_link_odom_camera_is1500
 # Launch sfHub
 cd Documents/wrapperCameraIS-1500/IS-1500_Software/Linux/sfHub/
 ./sfHub
+
 # Launch sfStudio
 cd Documents/wrapperCameraIS-1500/IS-1500_Software/Linux/sfStudio/
 export LD_LIBRARY_PATH=/home/jonathan/Documents/wrapperCameraIS-1500/IS-1500_Software/Linux/sfStudio/lib/
@@ -23,3 +24,13 @@ chmod 777 sfacces.ini
 cd .../folder/interface2/
 make arch=64
 => take labrary and move it in camera_is1500/lib/
+
+############################################################################
+# ET1
+############################################################################
+
+
+
+# Launch sfStudio
+export LD_LIBRARY_PATH=/home/ew/Documents/wrapperCameraIS-1500/IS-1500_Software/Linux/sfStudio/lib
+
