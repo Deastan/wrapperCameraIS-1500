@@ -1,11 +1,11 @@
 ;==============================================================================
 ; Section names are UpperCamelCase. Keys are lowerCamelCase.
 ; Equal signs '=' are not allowed.
-; 
+;
 ; Settings contained in the 'Master' section can be overridden for a specific
 ;   sensor by inserting S1-S4 sections and specifying a different value.
 ; Settings NOT contained in the 'Master' section apply to all sensors
-; 
+;
 ; IP address syntax is ipaddr:port
 ; Special 'ipaddr' values: * = 255.255.255.255, localhost = 127.0.0.1
 ;==============================================================================
@@ -17,11 +17,11 @@ General
     appMode    1 ; (1) Tracking (2) Playback (3) Configuration Utility
     numSensors 1 ; (1) Min (4) Max
     verbosity  0 ; (0) Low (1) Med (2) High
-    
+
     Master
     {
         ; (1) sfCore 3DOF
-        ; (2) sfCore 6DOF 
+        ; (2) sfCore 6DOF
         ; (3) NFT + Fid
         ; (4) NFT + GPS
         ; (5) NFT + GPS + Fid
@@ -65,9 +65,9 @@ InertiaCam
         frameInterval   50000 ; Frame interval (microseconds). Must be multiple of NC data period.
         manualExposure  3500  ; Initial manual exposure
         autoExposure    1     ; (1) Enable (0) Disable
-        autoExposureMin 100   ; Microseconds.
-        autoExposureMax 15000 ; Microseconds.
-        autoExposureLum 1000  ; Auto exposure target luminosity
+        autoExposureMin 15000 ; Microseconds.
+        autoExposureMax 30000 ; Microseconds.
+        autoExposureLum 25000 ; Auto exposure target luminosity
         illuminator     0     ; IR illuminator enable
     }
 }
@@ -79,7 +79,7 @@ ImgProc
     {
         whiteCenterEyes 1   ; (1) white center (0) black center
         filterFidMod    100 ; Fiducial modulus
-        imProcDiv       1   ; Image processing divisor 
+        imProcDiv       1   ; Image processing divisor
         undistort       1   ; (1) Enable undistortion
     }
 }
@@ -105,7 +105,7 @@ FusionCore
     {
         ahDataPath          Null ; Path to autoHarmData.txt (Null = local directory).
         ahStopCriteriaTau   0.01 ; INS latency uncertainty in seconds. Default = 0.01.
-        loseLockDelayMotion 3.0  ; 
+        loseLockDelayMotion 3.0  ;
         loseLockDelayFixed  0.75 ;
         maxPraError         0.50 ;
         isPlatformAHRS      0    ; 1 = true.
@@ -135,6 +135,6 @@ FusionCore
             state2 5
             state3 15
             state4 15
-        }	
+        }
     }
 }
